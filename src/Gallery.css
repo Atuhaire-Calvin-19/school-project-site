@@ -1,0 +1,28 @@
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:20px 30px;
+}
+
+.heading>h2{
+    text-align: center;
+}
+
+.images>img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:300px;
+    height:400px;
+    text-align:center;
+    box-shadow: 2px 2px 20px rgba(10, 4, 1, 0.164);
+    border-color: red;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin:20px;
+    flex-grow:1;
+}

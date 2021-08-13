@@ -1,0 +1,36 @@
+.activity{
+    width:1200px;
+    margin:40px;
+    position: relative;
+    text-align: center;
+}
+
+.activity>h3{
+    font-size: 2.5rem;
+    line-height: 55px;
+    color: #222222;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin:0px;
+}
+
+.activity>p{
+    font-size: 1rem;
+    color: #777777;
+}
+
+@media(max-width:500px){
+    .activity{
+        margin:0px;
+    }
+    .activity>h3{
+        text-align: left;
+        font-size: 30px;
+    }
+    .activity>p{
+        max-width: 400px;
+        text-align: left;
+        margin-left: 0px;
+        font-size:20px;
+    }
+}
